@@ -1,7 +1,6 @@
 body{
 	background: rgb(0,34,61);
-	background: url("texture.jpeg") 0 0 no-repeat;
-	background-size: cover;
+	
 	color: #fff;
 }
 .navbar{
@@ -14,17 +13,24 @@ body{
 }
 
 .row{
-	background: transparent;
+	background: #fff;
 
 	color: rgb(0,34,61);
 }
 footer{
 	background: rgb(0,34,61);
 	color: #fff;
+	/*position: absolute;
+	bottom: 0;
+	right:0;
+	left:0;*/
+
 }
 
 footer .row{
 	color: #fff;
+	background: rgb(0,34,61);
+
 }
 .row .col-md-6{
 	padding: 30px;
@@ -90,7 +96,8 @@ form .button{
 	font-style: italic;
 }
 
-.deals h1{
+.deals{
+	padding: 30px;
 	text-align: center;
 }
 
@@ -116,4 +123,81 @@ thead{
 }
 .hero{
 	margin-top: 0;
+}
+
+.hero img{
+	
+	width: 100%;
+}
+
+.carousel .carousel-inner .item{
+	max-height: 200px;
+}
+
+.deals img{
+	max-height: 150px;
+}
+
+.superhero{
+	background: transparent;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+
+.superhero h1{
+	font-weight: 100;
+}
+
+.superhero h3{
+	color:#707070;
+	letter-spacing: 0.1em;
+
+}
+
+.superhero h3 span{
+	font-style: italic;
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+.heading{
+	background: linear-gradient(to top,#fff,#555);
+	text-align: center;
+	padding: 50px;
+	color: rgb(0,31,64);
+
+}
+
+.heading h1{
+	font-weight: 300;
+	font-size: 50px;
+	letter-spacing: 0.1em;
+}
+
+.about{
+	text-align: justify;
+}
+
+.logo , .logo img{
+	padding: 0 ;
+	margin: 0;
+	height: 200px;
+	width: 400px;
+}
+
+.about .logo{
+	padding: 30px 0;
+}
+
+.category ul li{
+	line-height: 40px;
+	font-size: 22px;
+}
+.category a:hover{
+	text-decoration: none;
+	font-weight: 300;
+	transition: all .5s linear;
+	font-size: 25px;
 }

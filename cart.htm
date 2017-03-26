@@ -14,7 +14,7 @@
 	<body>
 		<section class="header">
 			<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+  <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -24,34 +24,28 @@
       <a class="navbar-brand" href="#">PHISHY!</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li ><a href="#">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Saltwater fish</a></li>
-            <li><a href="#">Freshwater fish</a></li>
-            <!-- <li><a href="#"></a></li> -->
-          </ul>
-        </li>
-        <li ><a href="#">Deals</a></li>
-        <li ><a href="#" >About Us</a></li>
+       <ul class="nav navbar-nav">
+        <li ><a href="main.htm">Home</a></li>
+        <li><a href="category.htm">Categories</a></li>
+        <li><a href="deals.htm">Deals</a></li>
+        <li ><a href="about.htm">About Us</a></li>
+        <li class="active"><a href="cart.htm">Cart</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li ><a href="register.htm"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="login.htm"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
 </nav>
-		</section><!--
+		</section><section class="heading row"><h1>Cart</h1></section><!--
 		--><section class="row">
 			<div class="container cart">
 
 				<div class = "table-responsive">
 				   <table class = "table table-hover">
       
-				      <caption>Your Cart</caption>
+				      <!-- <caption>Your Cart</caption> -->
 				      
 				      <thead>
 				         <tr>
@@ -150,7 +144,7 @@
 
 		    <!--Copyright-->
 		    <div class="footer-copyright">
-		        <div class="container-fluid">
+		        <div class="container">
 		            © 2017 Copyright:<a href="#"> PHISHY!</a>
 
 		        </div>
